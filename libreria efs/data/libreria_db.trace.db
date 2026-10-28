@@ -1,0 +1,42 @@
+2026-10-14 23:53:20.053203-05:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "LIBRO" no encontrada
+Table "LIBRO" not found; SQL statement:
+SELECT * FROM libro [42102-240]
+2026-10-14 23:53:33.938705-05:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "LIBRO" no encontrada
+Table "LIBRO" not found; SQL statement:
+INSERT INTO libro (titulo, autor) VALUES ('Cien años de soledad', 'Gabriel García Márquez') [42102-240]
+2026-10-14 23:53:57.413820-05:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "LIBRO" no encontrada
+Table "LIBRO" not found; SQL statement:
+SELECT * FROM libro [42102-240]
+2026-10-17 00:05:56.550344-05:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "UPDATE LIBROS\000d\000aSET PRECIO = 55.50 [*]STOCK = 10\000d\000aWHER ID = 2"
+Syntax error in SQL statement "UPDATE LIBROS\000d\000aSET PRECIO = 55.50 [*]STOCK = 10\000d\000aWHER ID = 2"; SQL statement:
+UPDATE LIBROS
+SET PRECIO = 55.50 STOCK = 10
+WHER ID = 2 [42000-240]
+2026-10-17 00:55:37.311956-05:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM [*]ALL"; se esperaba "identifier"
+Syntax error in SQL statement "SELECT * FROM [*]ALL"; expected "identifier"; SQL statement:
+SELECT * FROM ALL [42001-240]
+2026-10-17 00:55:42.222761-05:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "TABLES" no encontrada
+Table "TABLES" not found; SQL statement:
+SELECT * FROM TABLES [42102-240]
+2026-10-21 07:22:56.794391-05:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM [*]ALL"; se esperaba "identifier"
+Syntax error in SQL statement "SELECT * FROM [*]ALL"; expected "identifier"; SQL statement:
+SELECT * FROM ALL [42001-240]
+2026-10-21 07:23:04.314920-05:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM [*]ALL"; se esperaba "identifier"
+Syntax error in SQL statement "SELECT * FROM [*]ALL"; expected "identifier"; SQL statement:
+SELECT * FROM ALL [42001-240]
+2026-10-21 07:23:09.142189-05:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "TABLES" no encontrada
+Table "TABLES" not found; SQL statement:
+SELECT * FROM TABLES [42102-240]
+2026-10-21 07:23:09.421621-05:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "TABLES" no encontrada
+Table "TABLES" not found; SQL statement:
+SELECT * FROM TABLES [42102-240]
